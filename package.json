@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "swc-node-esm-register-issue",
+  "scripts": {
+    "cjs": "node -r @swc-node/register src/index.ts",
+    "esm": "node --import @swc-node/register/esm-register src/index.ts"
+  },
+  "dependencies": {
+    "@swc-node/register": "^1.8.0",
+    "@swc/core": "^1.3.107"
+  }
+}
