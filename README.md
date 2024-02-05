@@ -6,3 +6,6 @@
  - 🔴  Running `pnpm esm` results in unexpected error.
 
 Tested with `nodejs@20.11.0`
+
+ref: 
+ - https://github.com/swc-project/swc-node/issues/753
